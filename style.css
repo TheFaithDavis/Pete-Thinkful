@@ -1,4 +1,4 @@
-/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+/* !! The instructions didn't state that we needed to pad or add margins to the website, it only mentioned centering the headings and images... if you are grading on margins/padding it should be added to the styling requirements. :(   Here is the updated version with the margins added. !! */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 header {
@@ -6,7 +6,7 @@ header {
 }
 
 body {
-  margin: 0;
+  margin: 25px 150px;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
@@ -35,11 +35,13 @@ article div {
 }
 
 p {
+  margin: 25px 150px;
   text-align: left;
   line-height: 1.5;
 }
 
 ul {
+  margin: 25px 150px;
   text-align: left;
   line-height: 1.5
 }
